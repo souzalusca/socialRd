@@ -6,7 +6,7 @@ import './global.css'
 import { Sidebar } from './components/Sidebar'
 import { Post } from './components/Post'
 
-function App() {
+export function App() {
 
   return (
     <div>
@@ -25,4 +25,4 @@ function App() {
   )
 }
 
-export default App
+
