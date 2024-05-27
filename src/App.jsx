@@ -14,7 +14,6 @@ import { Post } from './components/Post'
 
 const posts = [
   {
-    id: 1,
     author: {
       avatarUrl: 'https://github.com/gustavoguanabara.png',
       name: 'Gustavo Guanabara',
@@ -28,7 +27,6 @@ const posts = [
     publishedAt: new Date('2024-05-11 08:13:30'),
   },
   {
-    id: 2,
     author: {
       avatarUrl: 'https://avatars.githubusercontent.com/u/12782014?v=4',
       name: 'Hudson Medeiros',
@@ -58,7 +56,7 @@ export function App() {
               content={post.content}
               publishedAt={post.publishedAt}
             /> 
-          )
+           )
          })}
         </main>
 
